@@ -1,0 +1,320 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18 Jun, 2019, 1:49:14 PM
+    Author     : suku
+*/
+body{
+    margin:0px;
+}
+
+header{
+
+
+    background: url(foot.jpg);
+    padding-left:5px;
+    padding-right:5px;
+    padding-top:5px;
+    padding-bottom: 4px;
+    opacity: 0.9;
+}
+@font-face{
+    font-family: til;
+    src:url(Tillana-Regular.ttf);
+}
+@font-face{
+    font-family: tilm;
+    src:url(Tillana-Medium.ttf);
+}
+@font-face{
+    font-family: tilb;
+    src:url(Tillana-Bold.ttf);
+}
+@font-face{
+    font-family: Pacifico;
+    src:url(Pacifico-Regular.ttf)
+}
+@font-face{
+    font-family: eczar;
+    src:url(Eczar-Bold.ttf)
+}
+@font-face{
+    font-family: ec;
+    src:url(Eczar-Regular.ttf)
+}
+@font-face{
+    font-family: laila;
+    src:url(Laila-Bold.ttf)
+}
+.poem{
+    background: url(bbk.jpg);
+}
+header div  a#im img{
+    margin-right: 750px;
+    -ms-transition: all 0.5s;
+    transition: all 0.5s ;
+}
+header div a#im img:hover {
+
+    -ms-transform: rotate(45deg);
+    transform:rotate(45deg);
+
+}
+
+header div a{
+    text-decoration: none;
+}
+header div a span{
+    color:white;
+    font-family: Pacifico;
+    font-size: 17px;
+    padding-left: 65px;
+    -ms-transition: all 1s;
+    transition: all 1s ;
+
+}
+header div#underline{
+
+    height:3px;
+    width:60px;
+    background: white;
+    margin-left: 850px;
+
+}
+header div a :hover{
+    color:yellow;
+    font-size: 20px;
+
+}
+div.side{
+    background:  url(foot.jpg);
+    opacity: 0.7;
+    position: absolute;
+    width: 200px;
+    border-radius:5px;
+    padding:10px;
+    display: none;
+    -ms-transition: all 1s;
+    transition: all 1s ;
+    z-index: 1;
+
+}
+div.side hr{
+    box-shadow: 2px 2px 5px #e6e9ef;
+    border-top: 1px dashed white;
+    opacity: 0.7;
+}
+div.side a{
+    text-decoration: none;
+}
+div.side a span{
+    color:white;
+    font-family: Pacifico;
+    font-size: 17px;    
+    -ms-transition: all 1s;
+    transition: all 1s ;
+}
+main div#m{
+    background: url(screen.jpg);
+
+}
+main div#m1{
+    background: url(bk1.jpg);
+    height: 700px;
+
+
+}
+main div img#sid{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    display: inline;
+    padding :5px;
+    border-radius:150px;
+    border: 3px dashed white;
+    box-shadow: 1px 1px 20px 5px #e6e9ef;
+
+}
+main div div.right{
+    display: inline;
+    float: right;
+    padding-top:150px;
+
+}
+main div span.q{
+    text-align: left;
+    font-family: laila;
+    color: white;
+    font-size: 30px;
+    margin-left: 50px;
+}
+main div div#bot{
+    border: 13px solid transparent;
+    -ms-border-image: url(blue.png) 30 round;
+    -webkit-border-image: url(blue.png) 30 round;
+    -o-border-image: url(blue.png) 30 round;
+    border-image: url(blue.png) 30 round;
+    width: 900px;
+    opacity: 0.8;
+    background: #f7f7ea;
+    border-radius: 5px;
+    margin-left: 140px;
+    margin-top:50px;
+    padding:10px;
+
+}
+main div#m div#bot p#head{   
+
+    font-family: ec;
+    color: #1d217c;
+    text-shadow: 2px 2px #bcbfff;
+    font-size: 30px;
+    margin-left: 10px;
+    display: inline;
+
+}
+.title{
+    font-size: 20px;
+    margin-left: 400px;
+}
+img#main{
+    float:left;
+    margin-top: 0px;
+    height:300px;
+    width:300px;
+}
+main div div#bot p{
+    font-family: ec;
+    color: #1d217c;
+}
+footer{
+
+    background: url(foot.jpg);
+    padding: 10px;
+
+}
+footer a img{
+    height:30px;
+    width:30px;
+    margin-right: 35px;
+    display: inline;
+}
+footer div#foot{
+    display: inline;
+}
+footer div#foot p{   
+    display: inline;
+}
+footer div#foot p{
+    color:white;
+    font-family: Pacifico;
+    font-size: 20px;
+}
+main div div#bl{
+
+    background: black;
+    opacity: 0.8;
+    border-radius: 5px;
+
+    margin-top:50px;
+    padding:10px;
+}
+img#hr{
+    height:35px;
+    width: 1280px;
+
+}
+main div#m div#b1{    
+    display: flex;
+    flex-wrap: wrap;
+    padding:10px;
+    margin-left: 20px;
+
+}
+main div#m div#b1 a>div{
+    background: url(smb.jpg);   
+    opacity: 0.8;
+    height: 120px;
+    width: 400px;    
+    margin: 40px 80px;
+    padding: 10px;
+    border: 2px solid white;    
+
+}
+main div#m div#b1 a>div img{
+    height:120px;
+    width: 120px;
+    display: inline;
+    float: left;
+}
+main div#m div#b1 a{
+    text-decoration: none;
+}
+main div#m div#b1 a>div p{
+    display: inline;
+    color: white;
+    font-family: eczar;
+    font-size: 20px;
+    text-align: center;
+    line-height: 85px;
+    text-shadow:2px 2px 2px #363a40;   
+    margin-left: 25px;
+
+}
+.poem div.main{
+    border: 13px solid red;    
+    width: 720px;    
+    margin-left: 350px;
+    background: url(page.jpg);
+    margin-top:70px;
+}
+.poem div table{    
+    font-family: tilm;
+    font-size: 17px;
+}
+.poem div.main table tr th{
+    padding-top: 25px;
+    font-family: tilb;
+    font-size: 23px;   
+
+}
+.poem div.main table tr td#first{
+    padding-left:10px;
+}
+.poem div.main table tr td#second{
+    padding-left: 10px;
+    
+}
+
+.poem a{
+    text-decoration: none;
+    line-height: 100px;
+
+}
+.poem a div#button{
+    height: 100px;
+    width: 100px;
+    border-radius: 60px;
+    background: red;
+    margin-top: 10px;
+    margin-left: 600px;
+    border: 3px groove #e0b970;
+
+}
+.poem a div#button:hover{
+   
+    background: url(bbk.jpg);
+    border: 3px ridge #e0b970;
+
+}
+.poem a div#button p{
+    line-height: 55px;
+    color:white;
+    font-family: pacifico;
+    text-align: center;
+    font-size: 20px;
+    text-shadow:2px 2px 2px #363a40;
+}
